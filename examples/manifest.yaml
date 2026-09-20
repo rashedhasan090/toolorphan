@@ -1,0 +1,6 @@
+tools:
+  - name: Shell
+  - name: Read
+  - name: WebSearch
+  - name: SendEmail
+  - name: LegacyDB

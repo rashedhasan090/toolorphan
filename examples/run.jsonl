@@ -1,0 +1,7 @@
+{"type": "tool_call", "tool": "Shell", "arguments": {"command": "ls"}}
+{"type": "tool_result", "tool": "Shell", "ok": true}
+{"type": "tool_call", "name": "Read", "arguments": {"path": "README.md"}}
+{"type": "tool_call", "function": {"name": "Shell", "arguments": "{}"}}
+{"type": "tool_call", "tool": "WebSearch", "arguments": {"query": "toolorphan"}}
+{"type": "tool_call", "tool": "UndeclaredHack", "arguments": {"target": "x"}}
+{"role": "assistant", "tool_calls": [{"function": {"name": "Read"}}, {"function": {"name": "GhostMCP"}}]}

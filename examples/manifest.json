@@ -1,0 +1,9 @@
+{
+  "tools": [
+    {"name": "Shell", "description": "Run a shell command"},
+    {"name": "Read", "description": "Read a file"},
+    {"name": "WebSearch", "description": "Search the web"},
+    {"name": "SendEmail", "description": "Send email — rarely used"},
+    {"name": "LegacyDB", "description": "Deprecated database tool"}
+  ]
+}
