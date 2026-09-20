@@ -65,7 +65,7 @@ toolorphan -m examples/manifest.json -l examples/run.jsonl --fail-on-orphan --fa
 
 1. Load declared names from a JSON or YAML-ish manifest (OpenAI-style `tools[]`, keyed maps, bare name lists).
 2. Scan tool-call JSONL for `tool` / `name` / `function.name` / `tool_calls[]` fields (skips pure results without a tool name).
-3. Diff: **matched**, **orphans** (declared ∩ never called), **rogues** (called ∉ declared).
+3. Diff: **matched**, **orphans** (declared but never called), **rogues** (called but not declared).
 4. Report text or JSON; optionally gate with CI exit codes.
 
 ## Manifest shapes supported
